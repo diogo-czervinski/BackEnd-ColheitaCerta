@@ -8,7 +8,7 @@ export class UserMapper{
             name: schema.name,
             email: schema.email,
             pass: schema.pass,
-            tel: schema.tel
+            tell: schema.tel
         })
     }
 
@@ -19,7 +19,7 @@ export class UserMapper{
         schema.name = user.name;
         schema.email = user.email;
         schema.pass = user.pass;
-        schema.tel = user.tel;
+        schema.tel = user.tell;
 
         return schema;
     }
